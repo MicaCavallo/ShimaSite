@@ -1,0 +1,38 @@
+/* Base styles that apply to all screen sizes */
+.container {
+  width: 100%;
+  padding: 20px;
+}
+
+.sidebar {
+  background-color: #ddd;
+  padding: 10px;
+}
+
+.content {
+  background-color: #eee;
+  padding: 10px;
+}
+
+/* Styles that apply when the viewport width is 600px or more */
+@media (min-width: 600px) {
+  .container {
+    display: flex;
+  }
+
+  .sidebar {
+    width: 20%;
+  }
+
+  .content {
+    width: 80%;
+  }
+}
+
+/* Styles that apply when the viewport width is less than 600px */
+@media (max-width: 599px) {
+  .sidebar,
+  .content {
+    width: 100%;
+  }
+}
