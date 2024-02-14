@@ -3,14 +3,59 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Responsive Layout Example</title>
-<link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+<title>Hallspot Landing Page</title>
+<style>
+  body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
+    text-align: center;
+    position: relative;
+    padding: 20px;
+    height: 100%;
+  }
+
+  .header {
+    font-size: 48px;
+    margin-top: 50px;
+  }
+
+  .subtitle {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+
+  .app-image {
+    max-width: 300px;
+    margin-top: 30px;
+  }
+
+  .download-button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+</style>
 </head>
 <body>
 
 <div class="container">
-  <div class="sidebar">Sidebar content</div>
-  <div class="content">Main content</div>
+  <div class="header">hallspot</div>
+  <img src="shimaIconClean.png" alt="Shima Icon" class="app-image">
+  <img src="bezel.png" alt="Shima App Screenshot with Bezel" class="app-image">
+  <div class="subtitle">
+    Hallspot helps students save money at their favorite campus bars and restaurants.
+  </div>
+  <a href="link-to-app-store" class="download-button">Download on iOS App Store</a>
 </div>
 
 </body>
