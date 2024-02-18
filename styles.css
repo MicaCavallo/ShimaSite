@@ -47,6 +47,7 @@ body, html {
     text-align: leading;
     margin-top: 20px;
     margin-bottom: 0px;
+     color: #0A351C
 /*    line-height: 1.6; /* Spacious line-height */*/
 }
 
@@ -54,6 +55,7 @@ body, html {
     font-size: 1.2em;
     line-height: 1;
     margin-bottom: 0px;
+    color: #0A351C
 }
 
 .simulator {
@@ -93,19 +95,16 @@ body, html {
     .content p {
         font-size: 1.1em;
         line-height: 1;
-        color: #0A351C
     }
     
 
     h1 {
         font-size: 1em;
-        color: #10512B;
     }
 
     h3 {
         font-size: 0.8em;
         line-height: 1;
-        color: #0A351C
     }
 
     .simulator {
